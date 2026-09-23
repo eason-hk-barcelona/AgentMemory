@@ -1,0 +1,19 @@
+# Local metadata and credentials
+.DS_Store
+.git/
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Python / JS environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
